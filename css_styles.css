@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.boxes h2,.boxes p{
+    margin: 0px 10px 0px 40px ;
+    text-align: left;
+}
+.boxes h2{
+    padding-top: 20px;
+}
+.box3 p, .box4 p{
+    margin-right: 25px;
+}
+body{
+    display: flex;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+#top{
+    font-weight: 200;
+}
+h2{
+    color: hsl(234, 12%, 34%);
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: hsl(229, 6%, 66%);
+}
+.container{
+    margin: 75px 8% 40px 8%;
+    display: flex;
+    flex-direction: column;
+}
+.smallcontainer{
+    margin-top: 50px;
+}
+.content{
+    text-align: center;
+    margin: 15px 15px 0px 0px;
+}
+.images{
+    text-align: end;
+    margin: 20px 20px 0px 20px;
+    padding-bottom: 20px;
+}
+.boxes{
+    margin:30px 0px 30px 0px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3),0px -1px 5px rgba(0,0,0,0.3);
+}
+.color1{
+    height:5px;
+    border-radius: 100px 100px 0px 0px;
+    background-color: hsl(180, 62%, 55%);
+}
+.color2{
+    height:5px;
+    border-radius: 100px 100px 0px 0px;
+    background-color: hsl(0, 78%, 62%);
+}
+.color3{
+    height:5px;
+    border-radius: 100px 100px 0px 0px;
+    background-color: hsl(34, 97%, 64%);
+}
+.color4{
+    height:5px;
+    border-radius: 100px 100px 0px 0px;
+    background-color: hsl(212, 86%, 64%);
+}
+@media(min-width:1000px){
+    .smallcontainer{
+        display: flex;
+        margin-top: 200px;
+        flex-wrap: wrap;
+    }
+    .boxes{
+        width: 30%;
+        height: 50%;
+        margin:0px;
+    }
+    .box1{
+        position: relative;
+        margin-left: 2.5%;
+    }
+    .box2{
+        position: relative;
+        bottom:150px;
+        left: 2.5%;
+    }
+    .box3{
+        position: relative;
+        top: 125px;
+        right: 27.5%;
+    }
+    .box4{
+        position: relative;
+        left: 67.5%;
+        bottom: 250px;
+    }
+    #top, #second{
+        font-size: 250%;
+    }
+    .box3 p, .box4 p{
+        margin-right: 0px;
+    }
+    .content{
+        margin: 15px 28% 15px 30%;
+    }
+    .images{
+        padding:10% 0px 5% 0px;
+    }
+}
